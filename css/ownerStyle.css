@@ -1,0 +1,231 @@
+.heroImage {
+    background: url("../images/hero_truck.jpg");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.heroContents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 36px;
+    padding: 10% 0;
+}
+
+@media only screen and (max-width: 650px) {
+    header {
+        padding-bottom: 30px;
+    }
+}
+
+/* info section section styles*/
+.info {
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.info h1 h2 {
+    margin: 10px 0;
+}
+
+.horizontal {
+    margin: 32px 0;
+    color: rgba(26, 26, 26, .15);
+    background-color: rgba(26, 26, 26, .15);
+}
+
+/* owners section styles */
+.owners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 55px 0;
+    padding: 30px 20px;
+}
+
+.owners img {
+    width: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+    .owners {
+        /* background-color:yellow; */
+        flex-direction: column;
+    }
+
+    .owners img {
+        width: 100%;
+    }
+}
+
+/* opportunities section styles */
+.oppo_heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.opportunities {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opportunities .oppo_des {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    ;
+}
+
+.opportunities .oppo_des i {
+    color: #4CAF50;
+}
+
+@media only screen and (max-width: 700px) {
+    .opportunities {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+    }
+}
+
+/* offer section styles */
+.offer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin: 55px 0;
+    padding: 30px 20px;
+}
+
+.offer img {
+    width: 500px;
+}
+
+.offer .offer_desc {
+    align-items: center;
+    text-align: center;
+}
+
+.offer .offer_desc p {
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+
+.offer .offer_desc h3 {
+    font-weight: 900;
+    font-style: bold;
+    letter-spacing: 0.2rem;
+    line-height: 1.35rem;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .offer {
+        flex-direction: column;
+    }
+}
+
+/* form section styles */
+.form_heading {
+    text-align: center;
+
+}
+
+.form_heading h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.form .names_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:center; */
+}
+
+.names_section .names {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.names input {
+    width: 250px;
+    padding: 19px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.names_section .differ input,
+textarea {
+    width: 570px;
+    padding: 19px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.names_section label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.names_section button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 15px 145px;
+    border-radius: 10px;
+    font-family: 'Roboto-Bold';
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px
+}
+
+@media only screen and (max-width: 650px) {
+
+    .names_section .differ input,
+    textarea {
+        width: 400px;
+        padding: 19px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    .names input {
+        width: 180px;
+        padding: 19px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+/* footer style section */
+.footer {
+    margin-top: 100px;
+}

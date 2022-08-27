@@ -1,0 +1,77 @@
+.heroImage_logistics {
+    background: url("https://images.squarespace-cdn.com/content/v1/5e286d6ec3e0a53151cb7fa9/1623694750164-0YUHDZO3ZOE5XEZ0QSIT/2021+Truck+Image+5.jpg?format=1500w");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.heroContents_logistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 36px;
+    padding: 10% 0;
+}
+
+@media only screen and (max-width: 650px) {
+    header {
+        padding-bottom: 30px;
+    }
+}
+
+.form_heading p {
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.agreement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 55px 0;
+    padding: 30px 20px;
+}
+
+.agreement img {
+    width: 500px;
+}
+
+@media only screen and (max-width: 900px) {
+    .agreement {
+        flex-direction: column;
+    }
+
+    .agreement img {
+        width: 100%;
+    }
+}
+
+.agreement_heading h1 {
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 30px;
+    margin: 71px -31px;
+}
+
+.truck_heading {
+    text-align: center;
+    font-size: 36px;
+}
+
+.truck .truck_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.truck_body .truck_content p {
+    margin: 10px 20px;
+    padding: 9px 18px;
+    line-height: 30px;
+    font-weight: 550 !important;
+}
